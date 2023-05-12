@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ApiService } from './core/services/api.service';
 
 @Component({
   selector: 'front-end-internship-assignment-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Books Library App';
+  // newdata:any;
+  // constructor(private _apiservice:ApiService){}
+  // ngOnInit(){
+  //   this._apiservice.getNewdata().subscribe((response: any) => {
+  //     this.newdata=response;
+  //   })
+  // }
 }
